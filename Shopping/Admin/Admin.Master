@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="ShoppingOnline.Admin.Admin" %>
+
+<%@ Register src="../login.ascx" tagname="login" tagprefix="uc1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../Style/templatemo_style.css" rel="stylesheet" type="text/css" />
+    <link href="../JavaScript/jquery-ui.css" rel="stylesheet" />
+    <script src="../JavaScript/jquery.js"></script>
+    <script src="../JavaScript/jquery-ui.js"></script>
+    <style type="text/css">
+      
+        .auto-style1 {
+            font-weight: bold;
+        }
+           .auto-style12 {
+            width:60px;
+            height: 54px;
+            text-align:center;
+            vertical-align:auto;
+        }
+        .menu {
+            text-align:center;
+            border-radius:10px;
+            margin:3px;
+           height:30px;
+           width:170px;
+           padding:3px;
+           background-image:url(../images/templatemo_menu_bg.jpg) ;
+
+        }
+           #templatemo_header {
+             background-image:url(../images/templatemo_header_bg2.jpg)
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="templatemo_container">
+	<div id="templatemo_menu" class="auto-style11">
+    	<ul style="display:inline">
+            <li><a href="HomeAdmin.aspx" class="auto-style12"><br />Home</a></li>
+            <li><a href="AddCategory.aspx" class="auto-style12"><br />Categories</a></li>            
+            <li><a href="AddProduct.aspx" class="auto-style12"><br />Books</a></li>  
+            <li><a href="view_users.aspx" class="auto-style12"><br />Users</a></li>
+    	</ul>
+    </div> <!-- end of menu -->
+    
+    <div id="templatemo_header">
+    &nbsp;<br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <asp:LinkButton ID="lbtn_pendorder" runat="server" Text="" ForeColor="Red" OnClick="lbtn_pendorder_Click" CausesValidation="False" > <asp:Label ID="Label1" runat="server" Text="Order "></asp:Label></asp:LinkButton>
+    </div> <!-- end of header -->
+            
+    <div id="templatemo_content">
+    	
+        <div id="templatemo_content_left">
+        	
+            
+            
+        	
+            
+            <table >
+                 <tr>
+                    <td><div class="menu"><a href="HomeAdmin.aspx"><span class="auto-style1">Home</span></a></div></td>
+                </tr>
+                <tr>
+                    <td><div class="menu"><a href="AddCategory.aspx"><span class="auto-style1">Add Category</span></a></div></td>
+                </tr>
+                <tr>
+                    <td><div class="menu"><a href="AddProduct.aspx"><span class="auto-style1">Add Product</span></a></div></td>
+                </tr>
+                <tr>
+                    <td><div class="menu"><a href="AddPromotion.aspx"><span class="auto-style1">Add/Edit Promotion</span></a></div></td>
+                </tr>
+                <tr>
+                    <td><div class="menu">
+                        <asp:LinkButton ID="lbn_logOut" runat="server" CausesValidation="False" OnClick="lbn_logOut_Click" >LogOut</asp:LinkButton></div></td>
+                </tr>
+            </table>
+
+        </div> <!-- end of content left -->
+        
+        <div id="templatemo_content_right">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>         
+        </div> <!-- end of content right -->
+    
+    	<div class="cleaner_with_height">&nbsp;</div>
+    </div> <!-- end of content -->
+    
+    <div id="templatemo_footer">
+        Copyright © 2024 <a href="#"><strong>Your Company Name</strong></a> 
+        <!-- Credit: www.templatemo.com -->
+	</div> <!-- end of footer -->
+<!--  Free CSS Template www.templatemo.com -->
+</div> <!-- end of container -->
+    </form>
+</body>
+</html>

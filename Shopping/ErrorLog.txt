@@ -1,0 +1,224 @@
+Time: 06/02/2018 01:23:43 PM
+-----------------------------------------------------------
+Message: Thread was being aborted.
+Location: /Admin/pendingorders.aspx
+Method: Page_Load
+Source: mscorlib
+Target Site: Void AbortInternal()
+-----------------------------------------------------------
+
+Time: 06/02/2018 02:52:33 PM
+-----------------------------------------------------------
+Message: Thread was being aborted.
+Location: /Admin/ViewProduct.aspx
+Method: Lbtn_Edit_Click
+Source: mscorlib
+Target Site: Void AbortInternal()
+-----------------------------------------------------------
+
+Time: 07/02/2018 03:42:25 PM
+-----------------------------------------------------------
+Message: The DELETE statement conflicted with the REFERENCE constraint "FK_OrderItem_Product". The conflict occurred in database "Online", table "dbo.OrderItem", column 'Prod_id'.
+The statement has been terminated.
+Location: /Admin/AddCategory.aspx
+Method: gv_category_RowDeleting
+Source: .Net SqlClient Data Provider
+Target Site: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+-----------------------------------------------------------
+
+Time: 07/02/2018 03:42:33 PM
+-----------------------------------------------------------
+Message: The DELETE statement conflicted with the REFERENCE constraint "FK_OrderItem_Product". The conflict occurred in database "Online", table "dbo.OrderItem", column 'Prod_id'.
+The statement has been terminated.
+Location: /Admin/AddCategory.aspx
+Method: gv_category_RowDeleting
+Source: .Net SqlClient Data Provider
+Target Site: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+-----------------------------------------------------------
+
+Time: 07/02/2018 03:43:21 PM
+-----------------------------------------------------------
+Message: Thread was being aborted.
+Location: /Admin/ViewProduct.aspx
+Method: Lbtn_Edit_Click
+Source: mscorlib
+Target Site: Void AbortInternal()
+-----------------------------------------------------------
+
+Time: 07/02/2018 03:44:09 PM
+-----------------------------------------------------------
+Message: Thread was being aborted.
+Location: /Admin/EditProduct.aspx
+Method: btn_Editprod_Click
+Source: mscorlib
+Target Site: Void AbortInternal()
+-----------------------------------------------------------
+
+Time: 07/02/2018 03:44:23 PM
+-----------------------------------------------------------
+Message: The DELETE statement conflicted with the REFERENCE constraint "FK_OrderItem_Product". The conflict occurred in database "Online", table "dbo.OrderItem", column 'Prod_id'.
+The statement has been terminated.
+Location: /Admin/ViewProduct.aspx
+Method: Lbtn_Delete_Click
+Source: .Net SqlClient Data Provider
+Target Site: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+-----------------------------------------------------------
+
+Time: 07/02/2018 03:44:35 PM
+-----------------------------------------------------------
+Message: The DELETE statement conflicted with the REFERENCE constraint "FK_OrderItem_Product". The conflict occurred in database "Online", table "dbo.OrderItem", column 'Prod_id'.
+The statement has been terminated.
+Location: /Admin/ViewProduct.aspx
+Method: Lbtn_Delete_Click
+Source: .Net SqlClient Data Provider
+Target Site: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+-----------------------------------------------------------
+
+Time: 07/02/2018 03:44:57 PM
+-----------------------------------------------------------
+Message: The DELETE statement conflicted with the REFERENCE constraint "FK_OrderItem_Product". The conflict occurred in database "Online", table "dbo.OrderItem", column 'Prod_id'.
+The statement has been terminated.
+Location: /Admin/ViewProduct.aspx
+Method: Lbtn_Delete_Click
+Source: .Net SqlClient Data Provider
+Target Site: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+-----------------------------------------------------------
+
+Time: 07/02/2018 03:46:27 PM
+-----------------------------------------------------------
+Message: There is no row at position 0.
+Location: /Admin/ViewProduct.aspx
+Method: txt_search_TextChanged
+Source: System.Data
+Target Site: NodePath GetNodeByIndex(Int32)
+-----------------------------------------------------------
+
+Time: 07/02/2018 03:49:40 PM
+-----------------------------------------------------------
+Message: Thread was being aborted.
+Location: /Admin/ViewProduct.aspx
+Method: Lbtn_Edit_Click
+Source: mscorlib
+Target Site: Void AbortInternal()
+-----------------------------------------------------------
+
+Time: 07/02/2018 03:49:51 PM
+-----------------------------------------------------------
+Message: Thread was being aborted.
+Location: /Admin/ViewProduct.aspx
+Method: Lbtn_Edit_Click
+Source: mscorlib
+Target Site: Void AbortInternal()
+-----------------------------------------------------------
+
+Time: 07/02/2018 03:51:31 PM
+-----------------------------------------------------------
+Message: Input string was not in a correct format.
+Location: /Admin/AddPromotion.aspx
+Method: btn_add_Click
+Source: mscorlib
+Target Site: Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+-----------------------------------------------------------
+
+Time: 07/02/2018 03:52:54 PM
+-----------------------------------------------------------
+Message: Thread was being aborted.
+Location: /Admin/ViewProduct.aspx
+Method: Lbtn_Edit_Click
+Source: mscorlib
+Target Site: Void AbortInternal()
+-----------------------------------------------------------
+
+Time: 07/02/2018 03:53:35 PM
+-----------------------------------------------------------
+Message: Thread was being aborted.
+Location: /Admin/ViewProduct.aspx
+Method: Lbtn_Edit_Click
+Source: mscorlib
+Target Site: Void AbortInternal()
+-----------------------------------------------------------
+
+Time: 07/02/2018 03:53:59 PM
+-----------------------------------------------------------
+Message: Thread was being aborted.
+Location: /Admin/ViewProduct.aspx
+Method: Lbtn_Edit_Click
+Source: mscorlib
+Target Site: Void AbortInternal()
+-----------------------------------------------------------
+
+Time: 07/02/2018 03:54:11 PM
+-----------------------------------------------------------
+Message: Input string was not in a correct format.
+Location: /Admin/EditProduct.aspx
+Method: btn_Editprod_Click
+Source: mscorlib
+Target Site: Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+-----------------------------------------------------------
+
+Time: 07/02/2018 03:56:20 PM
+-----------------------------------------------------------
+Message: Thread was being aborted.
+Location: /Admin/blockedUsers.aspx
+Method: btn_unblock_Click
+Source: mscorlib
+Target Site: Void AbortInternal()
+-----------------------------------------------------------
+
+Time: 07/02/2018 04:20:57 PM
+-----------------------------------------------------------
+Message: The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses
+Location: /Annonymous/ContactUs.aspx
+Method: btn_submit_Click
+Source: System
+Target Site: Void Add(System.String)
+-----------------------------------------------------------
+
+Time: 07/02/2018 07:25:17 PM
+-----------------------------------------------------------
+Message: Thread was being aborted.
+Location: /Admin/ViewProduct.aspx
+Method: Lbtn_Edit_Click
+Source: mscorlib
+Target Site: Void AbortInternal()
+-----------------------------------------------------------
+
+Time: 07/02/2018 07:35:18 PM
+-----------------------------------------------------------
+Message: Thread was being aborted.
+Location: /Admin/AddCategory.aspx
+Method: Page_Load
+Source: mscorlib
+Target Site: Void AbortInternal()
+-----------------------------------------------------------
+
+Time: 11/03/2018 07:12:49 PM
+-----------------------------------------------------------
+Message: The DELETE statement conflicted with the REFERENCE constraint "FK_OrderItem_Product". The conflict occurred in database "Online", table "dbo.OrderItem", column 'Prod_id'.
+The statement has been terminated.
+Location: /Admin/AddCategory.aspx
+Method: gv_category_RowDeleting
+Source: .Net SqlClient Data Provider
+Target Site: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+-----------------------------------------------------------
+
+Time: 11/03/2018 07:14:36 PM
+-----------------------------------------------------------
+Message: Thread was being aborted.
+Location: /Admin/ViewProduct.aspx
+Method: Lbtn_Edit_Click
+Source: mscorlib
+Target Site: Void AbortInternal()
+-----------------------------------------------------------
+
+Time: 11/08/2018 10:06:00 PM
+-----------------------------------------------------------
+Message: The DELETE statement conflicted with the REFERENCE constraint "FK_OrderItem_Product". The conflict occurred in database "Online", table "dbo.OrderItem", column 'Prod_id'.
+The statement has been terminated.
+Location: /Admin/ViewProduct.aspx
+Method: Lbtn_Delete_Click
+Source: .Net SqlClient Data Provider
+Target Site: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+-----------------------------------------------------------
+

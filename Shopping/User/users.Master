@@ -1,0 +1,134 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="users.master.cs" Inherits="Shopping.User.users" %>
+
+<%@ Register Src="~/login.ascx" TagPrefix="uc1" TagName="login" %>
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+	<meta name="keywords" content="" />
+<meta name="description" content="" />
+ <link href="../Style/templatemo_style.css" rel="stylesheet" type="text/css" />
+
+	<link href="../JavaScript/jquery-ui.css" rel="stylesheet" />
+	<script src="../JavaScript/jquery.js"></script>
+	<script src="../JavaScript/jquery-ui.js"></script>
+	<style type="text/css">
+		.auto-style10 {
+			height: 43px;
+		}
+		.auto-style11 {
+			height: 56px;
+		}
+		   .auto-style12 {
+			width:60px;
+			height: 54px;
+			text-align:center;
+			vertical-align:auto;
+		}
+			 .menu {
+			text-align:center;
+			border-radius:10px;
+			margin:3px;
+		   height:30px;
+		   width:170px;
+		   padding:3px;
+		   background-image:url(../images/templatemo_menu_bg.jpg) ;
+
+		}
+	</style>
+	
+	<asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+   </head>
+<body>
+	<form id="form1" runat="server">
+		<div>
+			<div id="templatemo_container">
+	<div id="templatemo_menu" class="auto-style11">
+		<ul style="display:inline">
+			<li></li>
+			<li></li>
+			<li><a href="../Annonymous/Home.aspx" class="auto-style12"><br />Home</a></li>
+			<li><a href="../User/ViewProducts.aspx" class="auto-style12"><br />Books</a></li>            
+			<li><a href="../User/PromotionPage.aspx" class="auto-style12"><br />Promotion</a></li>  
+			<li><a href="../Annonymous/ContactUs.aspx" class="auto-style12"><br />Contact</a></li>
+		</ul>
+		<div id="logindiv" class="auto-style10">
+			<uc1:login runat="server" id="login" />
+		</div>
+
+	</div> <!-- end of menu -->
+	
+	<div id="templatemo_header">
+		<div id="templatemo_special_offers">
+			<p>
+				<span>25%</span> discounts for
+		purchase over $ 40
+			</p>
+			<a href="#" style="margin-left: 50px;">Read more...</a>
+		</div>
+		
+		
+		<div id="templatemo_new_books">
+			<ul>
+				<li>Suspen disse</li>
+				<li>Maece nas metus</li>
+				<li>In sed risus ac feli</li>
+			</ul>
+			<a href="#" style="margin-left: 50px;">Read more...</a>
+		</div>
+	</div> <!-- end of header -->
+	
+	<div id="templatemo_content">
+		
+		<div id="templatemo_content_left">
+			 <div id="cart" style="text-align:center">
+				<img src="../images/img_290616.png" style="width:50px;"/><br />
+				<asp:LinkButton ID="lbtn_cart" runat="server" PostBackUrl="~/User/cart.aspx">My Cart</asp:LinkButton><br />
+			</div>
+			<br />
+		   <table >
+				 <tr>
+					<td><div class="menu"><a href="../Annonymous/Home.aspx"><span class="auto-style1">Home</span></a></div></td>
+				</tr>
+				<tr>
+					<td><div class="menu"><a href="../User/viewProfile.aspx"><span class="auto-style1">Profile</span></a></div></td>
+				</tr>
+				<tr>
+					<td><div class="menu"><a href="../User/History.aspx"><span class="auto-style1">History</span></a></div></td>
+				</tr>
+				<tr>
+					<td><div class="menu"><a href="../User/ViewProducts.aspx"><span class="auto-style1">Product</span></a></div></td>
+				</tr>
+			   <tr>
+					<td><div class="menu"><a href="../User/PromotionPage.aspx"><span class="auto-style1">Product Promotion</span></a></div></td>
+				</tr>
+				<tr>
+					<td><div class="menu">
+						<asp:LinkButton ID="lbn_logOut" runat="server" CausesValidation="False" OnClick="lbn_logOut_Click" >LogOut</asp:LinkButton></div></td>
+				</tr>
+			</table>
+			
+		</div> <!-- end of content left -->
+		
+		<div id="templatemo_content_right">
+			
+			<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+			
+		</div> <!-- end of content right -->
+	
+		<div class="cleaner_with_height">&nbsp;</div>
+	</div> <!-- end of content -->
+	
+	<div id="templatemo_footer">
+		   <a href="../Annonymous/Home.aspx">Home</a> | <a href="../User/ViewProducts.aspx">Books</a> | <a href="../Annonymous/ContactUs.aspx">ContactUs</a> | <a href="AboutUs.aspx">AboutUs</a> <br />
+		Copyright © 2024 <a href="#"><strong>Your Company Name</strong></a> 
+		<!-- Credit: www.templatemo.com -->
+	</div> <!-- end of footer -->
+<!--  Free CSS Template www.templatemo.com -->
+</div> <!-- end of container -->
+		</div>
+	</form>
+</body>
+</html>

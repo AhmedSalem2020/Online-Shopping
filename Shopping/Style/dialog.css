@@ -1,0 +1,48 @@
+﻿.dialog {
+    position: absolute;
+    width: 400px;
+    height:auto;
+    left: 525px;
+    top: 450px;
+    z-index: 1;
+    border-radius: 10px 10px;
+    border: 3px solid gray;
+    background-color:lightgoldenrodyellow;
+    text-align:center;
+    opacity: .90;
+    display: none;
+    color:black;
+    font-size:15px;
+}
+    .dialog div {
+        height: auto;
+        padding: 10px 10px;
+        width: 70%;
+        font-size: 15px;
+        margin: auto;
+        margin-top: 50px;
+        text-shadow: 2px 2px 4px black, 0 0 1em brown, 0 0 0.2em brown;
+        color:yellow;
+        font: Georgia, serif;
+    }
+
+.ddl {
+    border-radius: 10px;
+    border: 2px solid #7d6754;
+    padding: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('../images/index.jpg');
+    background-size: 30px;
+    background-position: right;
+    background-repeat: no-repeat;
+    Width: 230px;
+    Height: 30px;
+}
+.txt, .dll {
+    border-radius: 10px;
+    border: 2px solid #7d6754;
+    padding: 3px;
+    font-family: 'Monotype Corsiva',Verdana, Geneva, Tahoma, sans-serif;
+    font: 18px;
+}
