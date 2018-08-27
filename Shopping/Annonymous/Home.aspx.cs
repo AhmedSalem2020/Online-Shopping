@@ -23,7 +23,7 @@ namespace ShoppingOnline.Annonymous
         {
             try
             {
-                // GitHub Test
+                // GitHub Test 000
                 SqlCommand cmd = new SqlCommand("SELECT top(1) p1.* FROM Product p1 LEFT JOIN Product p2 ON (p1.Category_id = p2.Category_id AND p1.Prod_id < p2.Prod_id) WHERE p2.Prod_id IS NULL order by p1.Category_id desc");
 
                 dlst_latest.DataSource = DBlayer.Sel(cmd);
